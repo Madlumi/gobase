@@ -7,3 +7,4 @@ cd $1
 pwd
 make init
 rm -rf .git
+rm setup
