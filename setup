@@ -1,0 +1,9 @@
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <argument>"
+    exit 1
+fi
+git clone https://github.com/Madlumi/gobase.git $1
+cd $1
+pwd
+make init
+rm -rf .git
