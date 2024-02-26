@@ -1,5 +1,5 @@
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <argument>"
+    echo "Usage: $0 <project folder name>"
     exit 1
 fi
 git clone https://github.com/Madlumi/gobase.git $1
